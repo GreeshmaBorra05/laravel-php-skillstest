@@ -64,3 +64,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# PHP Skills Test – Inventory (Laravel)
+
+## Requirements
+- PHP 8.x
+- No DB needed (data is stored in storage/app/products.json)
+- vendor/ is included; .env already contains APP_KEY
+
+## Run
+1) From project root:
+   php artisan serve
+
+2) Open:
+   http://127.0.0.1:8000
+
+## Features
+- Add product (Ajax)
+- Edit product (Ajax)  [if you implemented]
+- Data saved to storage/app/products.json
+- Grand total auto-calculated
+- Optional: /export/xml to download XML
+
+## Notes
+- Bootstrap loaded via CDN (no build step).
+
